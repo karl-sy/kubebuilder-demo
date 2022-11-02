@@ -12,6 +12,14 @@
 # kubebuilder create webhook --group ingress --version v1beta1 --kind App --defaulting --programmatic-validation --conversion
 
 
+# make manifests 生成 ingress.karl.tech_apps.yaml
+
+
+# curl -Lo ./kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.2.0/kustomize_3.2.0_linux_amd64
+# chmod +x ./kustomize
+# sudo mv kustomize /usr/local/bin
+
+
 ## Description
 // TODO(user): An in-depth paragraph about your project and overview of use
 
