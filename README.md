@@ -1,6 +1,17 @@
 # kubebuilder-demo
 // TODO(user): Add simple overview of use/purpose
 
+# mkdir kubebuilder-demo
+
+# go mod init github.com/kubebuilder-demo
+
+# kubebuilder init --domain karl.tech
+
+# kubebuilder create api --group ingress --version v1beta1 --kind App
+
+# kubebuilder create webhook --group ingress --version v1beta1 --kind App --defaulting --programmatic-validation --conversion
+
+
 ## Description
 // TODO(user): An in-depth paragraph about your project and overview of use
 
